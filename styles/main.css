@@ -1,0 +1,18 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.shop {
+    flex-basis: 465px;
+    /* Make each child element the same width */
+    border: 1px dotted black;
+    padding: 1px, 200px, 20px;
+    margin-inline-end: 2%;
+}
+
+.pageHeader {
+    text-align: center;
+    font-size: large;
+}
